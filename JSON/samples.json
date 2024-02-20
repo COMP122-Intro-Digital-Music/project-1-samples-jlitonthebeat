@@ -1,1 +1,26 @@
-[ ]
+[
+  {
+    "name": "Clap",
+    "file": "samples/Clap.wav",
+    "bpm": "120",
+    "loop": "1m"
+  },
+  {
+    "name": "HighG",
+    "file": "samples/highG.wav",
+    "bpm": "120",
+    "loop": "1m"
+  },
+  {
+    "name": "LowG",
+    "file": "samples/LowG.wav",
+    "bpm": "120",
+    "loop": "1m"
+  },
+  {
+    "name": "double snap",
+    "file": "samples/Doublesnap.wav",
+    "bpm": "120",
+    "loop": "1m"
+  }
+]
