@@ -3,22 +3,21 @@
     "name": "Clap",
     "type": "Synth",
     "settings": {
-      "detune": "0",
+      "detune": "1",
       "portamento": "0.5",
       "volume": "0",
       "oscillator": {
-        "type": "sine",
+        "type": "sine1",
         "phase": 0,
-        "partialCount": "0",
-        "partials": []
+        "partialCount": "1"
       },
       "envelope": {
-        "attack": "0.1",
+        "attack": "0.13",
         "attackCurve": "linear",
-        "decay": "0.1",
+        "decay": "0.07",
         "decayCurve": "linear",
-        "sustain": "0.5",
-        "release": "1.5",
+        "sustain": "0.54",
+        "release": "1.00",
         "releaseCurve": "linear"
       }
     }
@@ -27,17 +26,20 @@
     "name": "Synth 1",
     "type": "Synth",
     "settings": {
-      "detune": "0",
-      "portamento": "0.5",
+      "detune": "-2",
+      "portamento": "1",
       "volume": "0",
       "oscillator": {
-        "type": "sine",
+        "type": "custom",
         "phase": 0,
-        "partialCount": "0",
-        "partials": []
+        "partialCount": "2",
+        "partials": [
+          "0.87",
+          "1"
+        ]
       },
       "envelope": {
-        "attack": "0.1",
+        "attack": "0.9",
         "attackCurve": "linear",
         "decay": "0.1",
         "decayCurve": "linear",
@@ -55,17 +57,21 @@
       "portamento": "0.5",
       "volume": "0",
       "oscillator": {
-        "type": "sine",
+        "type": "custom",
         "phase": 0,
-        "partialCount": "0",
-        "partials": []
+        "partialCount": "3",
+        "partials": [
+          "1",
+          "0.92",
+          "0.79"
+        ]
       },
       "envelope": {
         "attack": "0.1",
         "attackCurve": "linear",
-        "decay": "0.1",
+        "decay": "0.5",
         "decayCurve": "linear",
-        "sustain": "0.5",
+        "sustain": "0.8",
         "release": "1.5",
         "releaseCurve": "linear"
       }
